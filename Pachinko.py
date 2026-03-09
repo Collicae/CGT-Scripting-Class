@@ -15,6 +15,7 @@ line1Body = pymunk.Body(body_type=pymunk.Body.STATIC)
 line2Body = pymunk.Body(body_type=pymunk.Body.STATIC)
 line3Body = pymunk.Body(body_type=pymunk.Body.STATIC)
 
+
 line1 = pymunk.Segment(line1Body, (200, 200), (300, 300), 2)
 line2 = pymunk.Segment(line1Body, (400, 300), (200, 400), 3)
 line3 = pymunk.Segment(line1Body, (300, 500), (350, 200), 6)
