@@ -64,7 +64,7 @@ rightPaddleShape.elasticity = 1.0
 space.add(rightPaddleBody, rightPaddleShape)
 
 
-#Creates the Body for the screen (So the ball does not go off screen
+#Creates the Body for the screen (So the ball does not go off screen)
 leftBody = pymunk.Body(1,100, pymunk.Body.STATIC)
 leftBody.position = (10, 300)
 leftShape = pymunk.Poly.create_box(leftBody, (20, 800))
